@@ -1,0 +1,13 @@
+{
+    "javascript.autoClosingTags": false,
+    "javascript.format.enable": false,
+    "javascript.format.insertSpaceAfterCommaDelimiter": false,
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "typescript.workspaceSymbols.excludeLibrarySymbols": false,
+    "typescript.validate.enable": false,
+    "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors": false,
+    "typescript.tsserver.web.projectWideIntellisense.enabled": false
+}
