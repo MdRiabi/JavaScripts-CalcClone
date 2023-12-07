@@ -29,7 +29,7 @@ appendNumber(number){
 }
  
 
-chooseOperation(){
+chooseOperation(operation){
 
     if(this.currentOperand === '') return
     if (this.currentOperand !=='') {
@@ -112,7 +112,7 @@ updateDisplay(){
 const numberButtons = document.querySelectorAll('[data-number]');
 const operationButtons = document.querySelectorAll('[data-operation]');
 const equalsButton = document.querySelector('[data-equals]');
-const deleteButton = document.querySelectorAll('[data-delete]');
+const deleteButton = document.querySelector('[data-delete]');
 const allClearButton = document.querySelector('[data-all-clear]');
 const previousOperandTextElement = document.querySelector('[data-previous-operand]');
 const currentOperandTextElement = document.querySelector('[data-current-operand]');
